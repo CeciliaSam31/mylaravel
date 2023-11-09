@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(167, 167, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #3498db; /* Change this color to the shade of blue you prefer */
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    text-align: center;
+}
+
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+/* Center the registration form vertically */
+/* Center the registration form vertically */
+/* Center the registration form vertically */
+/* Center the registration form vertically */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the form for better alignment */
+.registration-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.registration-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.registration-box button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* Navigation menu styles */
+/* Navigation menu styles */
+#top-right-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+#top-right-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#top-right-nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#top-right-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
